@@ -34,4 +34,11 @@ public class Persona {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
+    //crear un evento
+
+    public void guardar() {
+        Datos.guardar(this);
+    }
+
 }
