@@ -3,11 +3,11 @@ package com.example.principal;
 import java.util.ArrayList;
 
 public class Datos {
-    private static ArrayList<persona> personas = new ArrayList();
-    public static void guardar(persona p){
+    private static ArrayList<Persona> personas = new ArrayList();
+    public static void guardar(Persona p){
         personas.add(p);
     }
-    public static ArrayList<persona> obtener(){
+    public static ArrayList<Persona> obtener(){
         return personas;
     }
 }
